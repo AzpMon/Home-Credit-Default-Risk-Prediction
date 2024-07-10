@@ -1,6 +1,6 @@
 # Home Credit Default Risk Prediction
 
-Alejandro Monroy Azpeitia, Jule 10th 2024.
+Alejandro Monroy Azpeitia, July 10th 2024.
 
 
 
@@ -94,7 +94,7 @@ Thanks to the creators of PySpark, XGBoost, Optuna, and other libraries used in 
 
 ### Contact
 For any questions or feedback, please contact me at:
-*Mail: amonroy.azpeitia@gmail.com
+*amonroy.azpeitia@gmail.com
 
-*Linkdin: https://www.linkedin.com/in/alejandromonroyazpeitia/
+*https://www.linkedin.com/in/alejandromonroyazpeitia/
 
