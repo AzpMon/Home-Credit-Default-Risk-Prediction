@@ -2,9 +2,7 @@
 
 Alejandro Monroy Azpeitia, Jule 10th 2024.
 
-Contact: amonroy.azpeitia@gmail.com
 
-Linkdin: https://www.linkedin.com/in/alejandromonroyazpeitia/
 
 ### Project Overview
 This project aims to predict the repayment ability of clients using alternative data, broadening financial inclusion for the unbanked population. The dataset used in this project is sourced from Kaggle and provided by Home Credit Group. The project involves extensive exploratory data analysis (EDA) using PySpark with SQL-like queries to efficiently manipulate and explore data. A significant challenge addressed in this project is the imbalance in the dataset, where the number of positive and negative examples in the target variable ('TARGET') differs significantly
@@ -87,10 +85,16 @@ This project showcases the application of advanced data analysis techniques and 
 ### Acknowledgements
 The dataset is provided by Home Credit Group via a Kaggle competition.
 Thanks to the creators of PySpark, XGBoost, Optuna, and other libraries used in this project.
-All the theory were used by 
+
+
+
+
 
 
 
 ### Contact
-For any questions or feedback, please contact me, Alejandro Monroy Azpeitia at 
+For any questions or feedback, please contact me at:
+*Mail: amonroy.azpeitia@gmail.com
+
+*Linkdin: https://www.linkedin.com/in/alejandromonroyazpeitia/
 
