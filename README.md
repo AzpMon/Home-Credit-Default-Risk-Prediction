@@ -3,6 +3,8 @@
 ### Project Overview
 This project aims to predict the repayment ability of clients using alternative data, broadening financial inclusion for the unbanked population. The dataset used in this project is sourced from Kaggle and provided by Home Credit Group. The project involves extensive exploratory data analysis (EDA) using PySpark with SQL-like queries to efficiently manipulate and explore data. A significant challenge addressed in this project is the imbalance in the dataset, where the number of positive and negative examples in the target variable ('TARGET') differs significantly
 
+
+
 ### Dataset Description
 The dataset includes several CSV files with information about loan applications, previous credits, and repayment histories.  Here are the main files used:
 
@@ -14,6 +16,8 @@ The dataset includes several CSV files with information about loan applications,
 * previous_application.csv: Records of all previous applications for Home Credit loans.
 * installments_payments.csv: Repayment history for previously disbursed credits.
 * HomeCredit_columns_description.csv: Descriptions of the columns in the various data files.
+
+
 
 ### Exploratory Data Analysis (EDA) with PySpark and SQL
 
@@ -28,6 +32,8 @@ In the EDA phase, extensive data analysis was conducted using PySpark, leveragin
 7. Handling Null Values: Analyzed and filled null values based on column types and domain knowledge.
 8. Correlation Analysis: Used correlation matrices to identify relationships between variables and eliminate redundant features.
 9. Feature Engineering: Created new features based on domain knowledge to improve model performance.
+
+
 
 ### Model Training
 A separate Jupyter notebook was used to train different models:
