@@ -1,5 +1,9 @@
 # Home Credit Default Risk Prediction
 
+Alejandro Monroy Azpeitia, Jule 10th 2024.
+Contact: amonroy.azpeitia@gmail.com
+Linkdin: https://www.linkedin.com/in/alejandromonroyazpeitia/
+
 ### Project Overview
 This project aims to predict the repayment ability of clients using alternative data, broadening financial inclusion for the unbanked population. The dataset used in this project is sourced from Kaggle and provided by Home Credit Group. The project involves extensive exploratory data analysis (EDA) using PySpark with SQL-like queries to efficiently manipulate and explore data. A significant challenge addressed in this project is the imbalance in the dataset, where the number of positive and negative examples in the target variable ('TARGET') differs significantly
 
@@ -70,8 +74,21 @@ Implementation: Used PySpark for logistic regression and hyperparameter search, 
 
 
 ### Results and Discussion
-The results of the models, including evaluation metrics and visualizations, are discussed in the model training notebook. Handling data imbalance was crucial in achieving accurate predictions, especially highlighted in the logistic regression model. The best model was an Extreme Gradient Boosting (XGBoost) model optimized using Optuna, achieving an AUC for the ROC curve of 0.9803 and 0.9965 for the training and test data, respectively. A deeper analysis of the results can be read in the PDF document "Final Report: Home Credit Default Risk Prediction
+The results of the models, including evaluation metrics and visualizations, are discussed in the model training notebook. Handling data imbalance was crucial in achieving accurate predictions, especially highlighted in the logistic regression model. The best model was an Extreme Gradient Boosting (XGBoost) model optimized using Optuna, achieving an AUC for the ROC curve of 0.9803 and 0.9965 for the training and test data, respectively. A deeper analysis of the results can be read in the PDF document "Final Report: Home Credit Default Risk Prediction.
+
 
 
 ### Conclusion
 This project showcases the application of advanced data analysis techniques and machine learning models using Grid Search with Scikit-Learn and PySpark, along with hyperparameter optimization with Optuna, to predict loan repayment abilities using alternative data sources. The use of PySpark with SQL-like queries facilitated efficient data handling, while addressing data imbalance was crucial for improving model performance.
+
+
+### Acknowledgements
+The dataset is provided by Home Credit Group via a Kaggle competition.
+Thanks to the creators of PySpark, XGBoost, Optuna, and other libraries used in this project.
+All the theory were used by 
+
+
+
+### Contact
+For any questions or feedback, please contact me, Alejandro Monroy Azpeitia at 
+
