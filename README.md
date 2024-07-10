@@ -94,7 +94,8 @@ Thanks to the creators of PySpark, XGBoost, Optuna, and other libraries used in 
 
 ### Contact
 For any questions or feedback, please contact me at:
-*amonroy.azpeitia@gmail.com
 
-*https://www.linkedin.com/in/alejandromonroyazpeitia/
+   * amonroy.azpeitia@gmail.com
+
+   * https://www.linkedin.com/in/alejandromonroyazpeitia/
 
