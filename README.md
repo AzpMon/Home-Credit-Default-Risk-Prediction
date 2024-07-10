@@ -1,7 +1,9 @@
 # Home Credit Default Risk Prediction
 
 Alejandro Monroy Azpeitia, Jule 10th 2024.
+
 Contact: amonroy.azpeitia@gmail.com
+
 Linkdin: https://www.linkedin.com/in/alejandromonroyazpeitia/
 
 ### Project Overview
