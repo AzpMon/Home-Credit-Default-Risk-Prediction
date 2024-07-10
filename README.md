@@ -61,6 +61,13 @@ Implementation: Used PySpark for logistic regression and hyperparameter search, 
 
 
 
+### Repository Structure
+* Data/: Contains the dataset files.
+* EDA/: Contains Jupyter notebooks for EDA.
+*  Model Training/: Contains Jupyter notebooks for model training.
+* .gitattributes: Attributes for Git.
+* README.md: Project overview and instructions.
+
 
 ### Results and Discussion
 The results of the models, including evaluation metrics and visualizations, are discussed in the model training notebook. Handling data imbalance was crucial in achieving accurate predictions, especially highlighted in the logistic regression model. The best model was an Extreme Gradient Boosting (XGBoost) model optimized using Optuna, achieving an AUC for the ROC curve of 0.9803 and 0.9965 for the training and test data, respectively. A deeper analysis of the results can be read in the PDF document "Final Report: Home Credit Default Risk Prediction
