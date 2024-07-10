@@ -57,3 +57,14 @@ Reduced dimensionality to 2 principal components, explaining ~95% of the varianc
 Implementation: Used sklearn to implement logistic regression due to reduced dataset dimensionality.
     *  Without PCA
 Implementation: Used PySpark for logistic regression and hyperparameter search, suitable for the large and high-dimensional dataset.
+
+
+
+
+
+### Results and Discussion
+The results of the models, including evaluation metrics and visualizations, are discussed in the model training notebook. Handling data imbalance was crucial in achieving accurate predictions, especially highlighted in the logistic regression model. The best model was an Extreme Gradient Boosting (XGBoost) model optimized using Optuna, achieving an AUC for the ROC curve of 0.9803 and 0.9965 for the training and test data, respectively. A deeper analysis of the results can be read in the PDF document "Final Report: Home Credit Default Risk Prediction
+
+
+### Conclusion
+This project showcases the application of advanced data analysis techniques and machine learning models using Grid Search with Scikit-Learn and PySpark, along with hyperparameter optimization with Optuna, to predict loan repayment abilities using alternative data sources. The use of PySpark with SQL-like queries facilitated efficient data handling, while addressing data imbalance was crucial for improving model performance.
