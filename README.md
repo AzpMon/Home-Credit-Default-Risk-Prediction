@@ -46,8 +46,8 @@ Grid Search for Hyperparameters: Conducted using grid search to find the best pa
 Evaluation: Assessed models using ROC curves, recall, precision, and F1-Score.
 Logistic regression was implemented in two different ways:
 
-    a.  With PCA
+    *  With PCA
 PCA: Reduced dimensionality to 2 principal components, explaining ~95% of the variance.
 Implementation: Used sklearn to implement logistic regression due to reduced dataset dimensionality.
-    b.  Without PCA
+    *  Without PCA
 Implementation: Used PySpark for logistic regression and hyperparameter search, suitable for the large and high-dimensional dataset.
