@@ -1,23 +1,23 @@
 # Home Credit Default Risk Prediction
 
 ### Project Overview
-This project aims to predict the repayment ability of clients using alternative data, broadening financial inclusion for the unbanked population. The dataset used in this project is sourced from Kaggle and provided by Home Credit Group. The project involves extensive exploratory data analysis (EDA) using PySpark with SQL-like queries to efficiently manipulate and explore data. A significant challenge addressed in this project is the imbalance in the dataset, where the number of positive and negative examples in the target variable ('TARGET') differs significantly.
+This project aims to predict the repayment ability of clients using alternative data, broadening financial inclusion for the unbanked population. The dataset used in this project is sourced from Kaggle and provided by Home Credit Group. The project involves extensive exploratory data analysis (EDA) using PySpark with SQL-like queries to efficiently manipulate and explore data. A significant challenge addressed in this project is the imbalance in the dataset, where the number of positive and negative examples in the target variable ('TARGET') differs significantly
 
 ### Dataset Description
-The dataset includes several CSV files with information about loan applications, previous credits, and repayment histories. Here are the main files used:
+The dataset includes several CSV files with information about loan applications, previous credits, and repayment histories.  Here are the main files used:
 
-application.csv: Main table with loan applications data.
-bureau.csv: Records of clients' previous credits from other financial institutions.
-bureau_balance.csv: Monthly balances of previous credits reported to Credit Bureau.
-POS_CASH_balance.csv: Monthly balance snapshots of previous POS and cash loans.
-credit_card_balance.csv: Monthly balance snapshots of previous credit cards.
-previous_application.csv: Records of all previous applications for Home Credit loans.
-installments_payments.csv: Repayment history for previously disbursed credits.
-HomeCredit_columns_description.csv: Descriptions of the columns in the various data files.
+* application.csv: Main table with loan applications data.
+* bureau.csv: Records of clients' previous credits from other financial institutions.
+* bureau_balance.csv: Monthly balances of previous credits reported to Credit Bureau.
+* POS_CASH_balance.csv: Monthly balance snapshots of previous POS and cash loans.
+* credit_card_balance.csv: Monthly balance snapshots of previous credit cards.
+* previous_application.csv: Records of all previous applications for Home Credit loans.
+* installments_payments.csv: Repayment history for previously disbursed credits.
+* HomeCredit_columns_description.csv: Descriptions of the columns in the various data files.
 
 ### Exploratory Data Analysis (EDA) with PySpark and SQL
 
-In the EDA phase, extensive data analysis was conducted using PySpark, leveraging SQL-like queries for efficient data manipulation and exploration. The following strategies were employed:
+In the EDA phase, extensive data analysis was conducted using PySpark, leveraging SQL-like queries for efficient data manipulation and exploration. A specific python class were created tom make easier the analysis. The following strategies were employed:
 
 1. Read and Load Data: Each CSV file was read and loaded into a PySpark DataFrame.
 2. SQL-Like Queries: Utilized PySpark's SQL capabilities to perform complex data transformations and aggregations.
